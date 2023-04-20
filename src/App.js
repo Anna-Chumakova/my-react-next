@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Board from './components/tic-tac-toe/tic-tac-toe';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello Word</h1>
+      <Board />
     </div>
   );
 }
